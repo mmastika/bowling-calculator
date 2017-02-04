@@ -18,4 +18,9 @@ class AuxFrame extends Frame {
     public Integer getFrameValue(ScoreAdder adder) {
         return 0;
     }
+
+    @Override
+    protected Integer getBonusScore(ScoreAdder adder) {
+        return 0;
+    }
 }
